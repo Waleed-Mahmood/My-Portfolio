@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SQLConnection1-Web.config Connection String" description="SQLConnection1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-VVTF0DI ; Initial Catalog=DBConnectProject ; Integrated security= true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mahmo\\source\\repos\\DB\ Ver\ 1\.\ Hopefully\ Final\\DB\ Ver\ 1\.\ Hopefully\ Final\\companyproject\\companyproject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SQLConnection1']/@connectionString" />
+  </parameter>
+</parameters>

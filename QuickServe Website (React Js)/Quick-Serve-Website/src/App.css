@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+.empty {
+  height: 100px;
+}
+
+.App {
+  background: linear-gradient(to right, #182928, #2F8F9D);
+  padding-bottom: 65px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navend {
+    display: flex;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav-bar {
+    display: flex;
+  }
+
+  .navend {
+    display: none;
+  }
+
+}

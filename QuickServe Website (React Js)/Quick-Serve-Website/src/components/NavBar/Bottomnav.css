@@ -1,0 +1,44 @@
+.navend{
+    background:linear-gradient(to right, #59f9b7, #66feea);
+    width:100%;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    z-index: 10;
+    left:50%;
+   
+    transform: translateX(-50%);
+    bottom: 0.0rem;
+    border-radius: 10rem;
+    backdrop-filter:blur(15px);
+    justify-content: space-around !important;
+  
+}
+
+.navend > Link {
+    padding: 0.8rem;
+    border-radius: 50%;
+    display:flex;
+    color:rgb(0, 0, 0);
+    font-size: 1.3rem;
+    /*  color: inherit; */
+  }
+
+  .navend > Link:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navend > Link.active{
+    background-color: rgba(0, 0, 0, 0.3);
+     
+      color:rgb(255, 255, 255)
+  }
+
+  @media only screen and (max-width: 950px) {
+    .navend{display: flex;}
+  }
+  @media only screen and (min-width: 1000px) {
+    .navend{display: none;}       
+    
+  }
+  

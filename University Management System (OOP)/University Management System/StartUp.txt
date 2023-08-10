@@ -1,0 +1,12 @@
+ComputerScience 30 25 2200
+ElectricalEngineering 35 19 2000
+CivilEngineering 25 15 1200
+Science&Humanities 18 18 1000
+ChemicalEngineering 14 12 1800
+
+
+
+
+
+
+

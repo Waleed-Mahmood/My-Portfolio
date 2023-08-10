@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="companyproject.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="templatemo-style.css" rel="stylesheet" />
+    <%-- <link href="all.min.css" rel="stylesheet" />--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="placeholder">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="img/book-store.jpeg">
+                <div class="tm-header">
+                    <div class="row tm-header-inner">
+                        <div class="col-md-6 col-12">
+                            <%--<img src="img/dummy-img.png" alt="Logo" class="tm-site-logo" />--%>
+                             <img src="img/simple-book-logo.jpg"  alt="Logo" class="tm-site-logo" />
+                            <div class="tm-site-text-box">
+                                <h1 class="tm-site-title">HookOnBooks</h1>
+                                <h6 class="tm-site-description">Online BookStore</h6>
+                            </div>
+                        </div>
+                        <nav class="col-md-6 col-12 tm-nav">
+                            <ul class="tm-nav-ul">
+                                <li class="tm-nav-li"><a href="insert.aspx" class="tm-nav-link active"><h3>Insert</h3></a></li>
+                                <li class="tm-nav-li"><a href="delete.aspx" class="tm-nav-link"><h3>Delete</h3></a></li>
+                                <li class="tm-nav-li"><a href="modify.aspx" class="tm-nav-link"><h3>Update</h3></a></li>
+                            </ul>
+                        </nav>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <main>
+
+            <div class="tm-section tm-container-inner">
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure class="tm-description-figure">
+                            <img src="img/img-0.jpg" alt="Image" class="img-fluid" />
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tm-description-box">
+                            <h4 class="tm-gallery-title"> Why Hook On Books? </h4>
+                            <p class="tm-mb-45">Think about the last good book you read. Did it make you feel more connected to others?
+                                Maybe it served as a welcome escape. Maybe it helped you rediscover the beauty in life. Did it surprise you?
+                                <br />
+                  As an online bookstore, we strive to offer the same variety and richness of experience as the books on our shelves to your doorstep.
+                We've been in the online shopping business for many years so we know what we are doing,
+                                and we guarantee that you can trust us, our products and our service.
+                            </p>
+                            <a href="about.html" class="tm-btn tm-btn-default tm-right">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="tm-footer text-center">
+            <p>
+                Copyright &copy; 2020 Simple House 
+            
+            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a>
+            </p>
+        </footer>
+
+
+    </form>
+</body>
+</html>

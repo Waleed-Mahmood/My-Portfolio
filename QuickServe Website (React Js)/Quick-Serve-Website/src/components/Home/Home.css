@@ -1,0 +1,36 @@
+.homeBody {
+    z-index: -1;
+}
+
+.homeBody>video {
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    margin-top: 10ch;
+    color: black;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    opacity: 0.8;
+    position: absolute;
+    top: 10vh;
+    background: linear-gradient(to right, #182928, #2F8F9D);
+}
+
+.homeBody>.content>h1 {
+    font-weight: 300px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .homeBody>.content >h1{
+        font-size: 40px;
+        font-weight: 50px;
+    }
+}

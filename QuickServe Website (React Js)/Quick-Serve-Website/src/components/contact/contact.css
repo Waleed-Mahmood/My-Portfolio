@@ -1,0 +1,132 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  width: 100%;
+  background: linear-gradient(to right, #182928, #2F8F9D);
+  padding: 10%;
+  position: relative;
+}
+
+.contact .info {
+  width: 100%;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #235f68, #182928);
+}
+
+.contact .info .info-icon {
+  font-size: 20px;
+  color: white;
+
+  float: left;
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(to right, #182928, #B3E8E5);
+  display: flex;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+
+.contact .info h4 {
+  padding-top: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact .info p {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.contact a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: none;
+}
+
+.contact .info.info-detail {
+  margin-top: 40px;
+}
+
+.contact.info.info-detail.address-logo {
+  margin-right: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.info-detail>p>a {
+  color: white;
+}
+
+.contact .info .info-detail:hover i {
+  background: aqua;
+  color: #fff;
+}
+
+.contact .rounded-pill {
+  background: linear-gradient(to right, #B3E8E5, #82DBD8);
+  border: none;
+  color: black;
+  align-items: center,
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f5f5ff;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: aqua;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.info.row{
+  border-radius: 20px;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.thumbnail:hover {
+    position: relative;
+    top: -25px;
+    left: -10px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+
+.ServiceProviderCard {
+    background: linear-gradient(to right, #82DBD8, #2F8F9D);
+    padding-right: 0vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+}
+
+.header {
+    background: linear-gradient(to right, #182928, #2F8F9D);
+    color: white;
+    padding: 100px 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.givewidth h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 50;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.fs-4 {
+    text-align: center;
+}
+
+.styleoftext {
+    text-align: center;
+    font-size: medium;
+    color: #111;
+}

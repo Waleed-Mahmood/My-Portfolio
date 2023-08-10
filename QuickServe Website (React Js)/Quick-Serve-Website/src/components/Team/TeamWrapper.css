@@ -1,0 +1,36 @@
+.TeamPics {
+  vertical-align: middle;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 100%;
+  color: aqua;
+  background: linear-gradient(to right, #182928, #2F8F9D);
+  padding-bottom: 100px;
+}
+
+/* .TeamPics>.video {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  justify-content: center;
+  
+}
+
+.TeamPics>.video>video {
+  width: 100%;
+} */
+
+.TeamPics>.teams {
+  padding-top: 30vh;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 30px;
+  z-index: 8;
+}
+
+.TeamPics>.teams ::-webkit-scrollbar {
+  display: none;
+}

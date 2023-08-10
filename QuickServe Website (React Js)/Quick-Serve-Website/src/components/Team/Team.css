@@ -1,0 +1,28 @@
+.collectionCard {
+    color: white;
+    background-color: #1a1c1e;
+    border-radius: 50px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin: 30px;
+    padding-bottom: 5px;
+    border-color: #B3E8E5;
+    border-width: 8px;
+    border-style: groove;
+}
+
+.collectionCard>img {
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+.imageText {
+    padding-left: 30%;
+    bottom: 50%;
+    color: white;
+}
+

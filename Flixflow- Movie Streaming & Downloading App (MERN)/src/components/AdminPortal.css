@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+/* .container {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    padding-bottom:  60px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    
+} */
+
+/* .inputs {
+    text-align: left;
+    margin-top: 30px;
+} */
+
+.a-container label,
+.a-container input,
+.a-container button{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.a-container label {
+    margin-bottom: 4px;
+    color: black;
+}
+
+.a-container label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+.a-container input::placeholder {
+    color: gray;
+}
+
+/* .container input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+} */
+
+.a-container button {
+    color: white;
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 30px;
+}
+
+.a-container button:hover {
+    box-shadow: none;
+}
+
+.a-container a {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.a-container h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.admin-container {
+    margin: 30px 60px 60px 60px;
+}
+
+.submit-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 30px 60px 30px;
+}
+
+
+.admin-movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.admin-movie-card {
+    padding: 30px;
+}
+
+.admin-container button {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.admin-container button:hover {
+    background-color: darkred;
+    transition: all .14s ease-in-out;
+}

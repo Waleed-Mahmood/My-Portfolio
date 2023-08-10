@@ -1,0 +1,27 @@
+#signin {
+    padding-bottom: 30vh;
+    padding-top: 10vh;
+}
+
+.Paper {
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.Button {
+    margin-top: 100vh;
+    color: black;
+    
+    background: linear-gradient(to right, #2F8F9D, #82DBD8);;
+}
+
+#signup{
+    padding-bottom: 30vh;
+    padding-top: 10vh;
+}
+.TabContainer{
+    margin:0;
+}
+.mainWrapper{
+    background: black;
+}

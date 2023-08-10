@@ -1,0 +1,94 @@
+.nav-bar {
+    color:#B3E8E5;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    background-color: #2F8F9D;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: 100;
+
+}
+
+.NavBarItem {
+    justify-content: space-around;
+    display: flex;
+    margin: 5px;
+}
+
+
+.NavBarItem > a {
+    background: linear-gradient(to right, #B3E8E5, #82DBD8);
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: black;
+    margin: 3px;
+    
+    text-decoration: none;
+}
+.NavBarItem > a:hover{
+    cursor: pointer;
+    transform: scale(1);
+    background: black;
+    color:white;
+    font-weight: 700;
+}
+.SearchBar {
+    background-color: #82DBD8;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+
+}
+
+.SearchBar>.SearchBarIcon>img {
+    background-color: transparent;
+}
+
+.SearchBar>.SearchBarIcon {
+    margin: 10px;
+    color: white;
+    background-color: #82DBD8;
+
+}
+
+.SearchBar>.SearchInput {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+
+}
+
+.nav-bar h3 {
+    color: white;
+    width: 200px;
+
+}
+.SignIn {
+    background: linear-gradient(to right, #59f9b7, #66feea);
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: black;
+}
+/* .button:hover{
+    color:black; 
+    font-size: larger;
+    font-weight: bold;
+} */
+
+@media only screen and (max-width: 1000px) {
+    .nav-bar{display: none;}
+  }
+  @media only screen and (min-width: 1000px) {
+    .nav-bar{display: flex;}
+    
+  }
+  
